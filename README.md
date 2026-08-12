@@ -1,29 +1,15 @@
-# NotePub for SiYuan
-
-The official distribution repository for the NotePub plugin for SiYuan.
-
-NotePub lets you publish SiYuan documents, document trees, and notebooks to a self-hosted NotePub site. The plugin is currently being prepared for public distribution.
-
-## Status
-
-- No installation package is available from this repository yet.
-- Future versions will be published through [GitHub Releases](https://github.com/zxbdzh/siyuan-plugin-notepub/releases) as `package.zip`.
-- Plugin source code is not hosted in this distribution repository.
-
-Please do not use GitHub's automatically generated source archives as SiYuan installation packages.
-
----
-
 # NotePub 思源插件
 
-这是 NotePub 思源插件的官方分发仓库。
+[English](./README_en_US.md)
 
-NotePub 可以将思源文档、文档树和笔记本发布到自托管的 NotePub 站点。插件目前正在准备公开分发。
+NotePub 是一款面向思源笔记的内容发布插件，可将文档、文档树或完整笔记本发布到自托管的 NotePub 站点，让笔记内容以博客或文档站的形式对外分享。
 
-## 当前状态
+## 主要功能
 
-- 本仓库暂未提供可安装包。
-- 后续版本将通过 [GitHub Releases](https://github.com/zxbdzh/siyuan-plugin-notepub/releases) 发布，安装包文件名为 `package.zip`。
-- 本分发仓库不托管插件源代码。
-
-请勿将 GitHub 自动生成的源码压缩包作为思源插件安装包使用。
+- 发布单篇文档、包含子文档的文档树或完整笔记本
+- 同步 Markdown、文档层级和本地附件
+- 支持博客模式与文档模式
+- 支持公开、私密和密码保护分享
+- 管理已发布内容、访问方式与分享地址
+- 自动同步已经发布且发生变更的内容
+- 在系统安全存储可用时加密保存分享密码
